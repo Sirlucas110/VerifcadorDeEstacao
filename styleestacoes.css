@@ -1,6 +1,7 @@
 body {
     text-align: center;
     background-color: rgb(229, 218, 201);
+    margin: 0;
 }
 h1{
     font: bold 30px arial;
@@ -16,8 +17,10 @@ section{
     background: white;
     padding: 12px;
     border-radius: 8px 8px 8px 8px;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
+    min-width: 320px;
+    
 }
 #foto{
     margin-top: 20px;
